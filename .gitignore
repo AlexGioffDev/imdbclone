@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.pkl
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+wheels/
+*.manifest
+*.spec
+*.log
+*.pot
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+local_settings.py
+
+# DRF / API docs (optional generated files)
+*.swagger.json
+*.swagger.yaml
+*.openapi.json
+*.openapi.yaml
+
+# IDEs & editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+htmlcov/
+.coverage.*
+.cache
+.nox/
+.pytest_cache/
+.tox/
+junit*.xml
+
+# Mypy & type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Pytype
+.pytype/
+
+# Profiling
+.prof
+
+# Logs & runtime files
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Security
+secrets.json
+.env.local
+.env.dev
+.env.prod
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
